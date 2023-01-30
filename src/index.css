@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.light-mode {
+  --main-bcg:#ffffff;
+  --text-color: #2D2D2D;
+  --menu-bcg:#ffffff;
+  --box-shadow-col:#ffffff;
+  --search-bcg:#F4F4F4;
+  --menu-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
+}
+
+.dark-mode {
+  --main-bcg:#000000;
+  --text-color: #ffffff;
+  --menu-bcg:#1F1F1F;
+  --box-shadow-col:#A445ED;
+  --search-bcg:#1F1F1F;
+  --menu-shadow: 0px 5px 30px #A445ED;
+}
