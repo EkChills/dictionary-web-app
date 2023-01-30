@@ -19,6 +19,7 @@ export const getWordInfo = createAsyncThunk('dictionary/getWord', async(word, th
     const data = await resp.data
     return data
   } catch (error) {
+    console.log(error);
     return thunkAPI.rejectWithValue(error.response.data.msg)
   }
 })

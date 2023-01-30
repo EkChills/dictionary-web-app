@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 const SearchError = () => {
   return (
-    <Wrapper className='w-full h-full bcg grid mt-[1rem]'>
+    <Wrapper className='w-full h-full bcg grid mt-[1rem] text-center'>
       <div className='flex flex-col items-center'>
         <span className='text-[48px] md:text-[64px]'>
           😣
